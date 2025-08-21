@@ -1,0 +1,238 @@
+body {
+    margin-top: 400px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+}
+
+/*
+
+PAGE CONTAINER
+
+
+*/
+#page-box {
+    max-width: 100%;
+    width: 1000px;
+    height: 1500px;
+    background-color: rgb(12, 8, 3);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius:  10px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+/*
+
+BOX STYLING
+
+*/
+
+
+#header-box {
+    width: 100%;
+    height: 3%;
+    overflow: hidden;
+    background-color: rgb(30, 38, 61);
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: space-around;
+}
+#intro-box {
+    width: 100%;
+    height: 29%;
+    background-color: rgb(30, 38, 61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#photos-box {
+    width: 100%;
+    height: 29%;
+    background-color: rgb(240, 241, 240);
+}
+#quote-box {
+    width: 100%;
+    height: 16%;
+    background-color: rgb(211, 213, 211);
+}
+#signup-box {
+    width: 100%;
+    height: 20%;
+    background-color: rgb(232, 234, 232);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer-box {
+    width: 100%;
+    height: 3%;
+    background-color: rgb(41, 44, 55);
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+/*\
+HEADER STYLING
+*/
+
+#header-title {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+#header-title h1 {
+    font-size: 100%;
+    color: white;
+    font-family: "Kumar One Outline", system-ui;
+
+}
+#link-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 7%;
+    height: 100%;
+}
+#link-list ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    color: white;
+}
+a {
+    color: white;
+}
+a:hover {
+    color: grey;
+}
+
+/*
+INTRO BOX STYLING AND DECENDANTS
+*/
+#intro-box1 {
+    justify-items: start;
+    width: 350px; 
+    height: 270px;
+    background-color: transparent;
+    font-size: large;
+    color: white;
+    border-top: black 7px solid;
+    box-sizing: border-box;
+}
+button {
+    background-color: rgb(86, 119, 240);
+    width: 100px;
+    height: 35px;
+    font-size: large;
+    color: white;
+    border-radius: 10px;
+}
+button:hover {
+    background-color: grey;
+    color: black;
+}
+#intro-box2 {
+    background-image: url(assets/images.jpeg);
+    background-size: cover;
+    width: 350px;
+    height: 270px;
+    border: black 8px solid;
+    box-sizing: border-box;
+}
+
+/*
+PHOTO IMAGES STYLING
+*/
+#photo-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+
+}
+#photo-images {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width: 1000px;
+    height: 300px;
+    gap: 30px;
+    text-align: center;
+    font-weight: 900;
+}
+#box-image {
+    border-radius: 5px;
+    border: rgb(98, 98, 227) 5px solid;
+}
+
+/*
+QUOTE STYLING
+*/
+#quote-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#quote {
+    width: 500px;
+    height: 100px;
+    color: grey;
+    font-size: large;
+    font-style: italic;
+}
+#signature {
+    width: 500px;
+    height: 50px;
+    text-align: end;
+    color: rgb(140, 145, 145);
+    font-size: large;
+    font-style: italic;
+}
+
+/*
+SIGNUP STYLING
+*/
+#signup-quote {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: 100px;
+    background-color: rgb(86, 119, 240);
+    color: white;
+    
+}
+#signup-quote p{
+    margin-top: 0;
+    margin-left: 10px;
+}
+#signup-quote h3{
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+#signup-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 310px;
+    height: 100px;
+    background-color: rgb(86, 119, 240);
+    color: white;
+}
+#signup-button button {
+    border: white 2px solid;
+}
